@@ -1,13 +1,13 @@
-def calcula_grado(grado):
-    if grado < 0.0 or grado > 1.0:
+def calcula_grado(gradoo):
+    if gradoo < 0.0 or gradoo > 1.0:
         nota = "score incorrecto"
-    elif grado > 0.9:
+    elif gradoo > 0.9:
         nota = "A"
-    elif grado > 0.8:
+    elif gradoo > 0.8:
         nota = "B"
-    elif grado > 0.7:
+    elif gradoo > 0.7:
         nota = "C"
-    elif grado > 0.6:
+    elif gradoo > 0.6:
         nota = "D"
     else:
         nota = "F"

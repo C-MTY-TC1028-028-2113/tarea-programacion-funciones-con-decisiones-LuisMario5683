@@ -1,6 +1,6 @@
-def tarjetas(pliegos,plumones):
+def tarjetas(pliegoos,plumones):
     
-    tarjetasPliegos = pliegos*12
+    tarjetasPliegos = pliegoos*12
     tarjetasPlumones = plumones*35
 
     if tarjetasPliegos<=tarjetasPlumones:
